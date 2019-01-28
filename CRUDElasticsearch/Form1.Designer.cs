@@ -98,27 +98,27 @@
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(182, 50);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(38, 13);
+            this.lblName.Size = new System.Drawing.Size(55, 13);
             this.lblName.TabIndex = 5;
-            this.lblName.Text = "Name:";
+            this.lblName.Text = "Firstname:";
             // 
             // lblVoiceActor
             // 
             this.lblVoiceActor.AutoSize = true;
             this.lblVoiceActor.Location = new System.Drawing.Point(117, 78);
             this.lblVoiceActor.Name = "lblVoiceActor";
-            this.lblVoiceActor.Size = new System.Drawing.Size(103, 13);
+            this.lblVoiceActor.Size = new System.Drawing.Size(56, 13);
             this.lblVoiceActor.TabIndex = 6;
-            this.lblVoiceActor.Text = "Original Voice Actor:";
+            this.lblVoiceActor.Text = "Lastname:";
             // 
             // lblDebut
             // 
             this.lblDebut.AutoSize = true;
             this.lblDebut.Location = new System.Drawing.Point(137, 108);
             this.lblDebut.Name = "lblDebut";
-            this.lblDebut.Size = new System.Drawing.Size(83, 13);
+            this.lblDebut.Size = new System.Drawing.Size(24, 13);
             this.lblDebut.TabIndex = 7;
-            this.lblDebut.Text = "Animated Debut";
+            this.lblDebut.Text = "City";
             // 
             // panel1
             // 
@@ -236,17 +236,17 @@
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Name";
+            this.columnHeader2.Text = "Firstname";
             this.columnHeader2.Width = 205;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Original Voice Actor";
+            this.columnHeader3.Text = "Lastname";
             this.columnHeader3.Width = 233;
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Animated Debut";
+            this.columnHeader4.Text = "City";
             this.columnHeader4.Width = 265;
             // 
             // Form1
