@@ -154,9 +154,6 @@ namespace CRUDElasticsearch
 
         #endregion Reset all Flag       
 
-        private void lvwDisneyCharacter_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+ 
     }
 }

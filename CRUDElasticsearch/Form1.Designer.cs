@@ -98,18 +98,19 @@
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(182, 50);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(55, 13);
+            this.lblName.Size = new System.Drawing.Size(52, 13);
             this.lblName.TabIndex = 5;
-            this.lblName.Text = "Firstname:";
+            this.lblName.Text = "Firstname";
             // 
             // lblVoiceActor
             // 
             this.lblVoiceActor.AutoSize = true;
             this.lblVoiceActor.Location = new System.Drawing.Point(117, 78);
             this.lblVoiceActor.Name = "lblVoiceActor";
-            this.lblVoiceActor.Size = new System.Drawing.Size(56, 13);
+            this.lblVoiceActor.Size = new System.Drawing.Size(53, 13);
             this.lblVoiceActor.TabIndex = 6;
-            this.lblVoiceActor.Text = "Lastname:";
+            this.lblVoiceActor.Text = "Lastname";
+            this.lblVoiceActor.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // lblDebut
             // 
@@ -227,7 +228,6 @@
             this.lvwDisneyCharacter.TabIndex = 9;
             this.lvwDisneyCharacter.UseCompatibleStateImageBehavior = false;
             this.lvwDisneyCharacter.View = System.Windows.Forms.View.Details;
-            this.lvwDisneyCharacter.SelectedIndexChanged += new System.EventHandler(this.lvwDisneyCharacter_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
